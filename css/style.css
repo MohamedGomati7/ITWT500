@@ -528,7 +528,7 @@ header .center-logo a.logo img {max-width: 130px;}
 /*Bottom Nav*/
 
 .bottom-nav,.header-appear .bottom-nav{
-    position: absolute;
+    position: fixed;
     height: 70px;
     bottom: 0;
     -webkit-animation-name: fadeInDown;
@@ -2741,12 +2741,50 @@ ul.packages li i.fa-times{
     color:#232323;
 }
 
+
 ul.count_down {
     list-style: none;
     margin: 65px 0 0 0;
     padding: 0;
     display: block;
     text-align: center;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative
+}
+.dropdown-content {
+    position:fixed;
+    background-color: lightgrey;
+    min-width: 200px;
+    display: none;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    
+}
+.dropdown-content .a:hover {
+    background-color: orange;
+    
+    
+}
+.dropdown:hover .dropdown-content {
+    
+    display:block;
+}
+.dropdown:hover .dropbtn {
+    background-color: grey;
+}
+.dropbtn {
+    background-color: yellow;
+    color: black;
+    padding: 10px;
+    font-size: 12px;
 }
 
 ul.count_down li {
