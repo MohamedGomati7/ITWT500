@@ -31,7 +31,7 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="90">
 
 <!--Loader Start-->
-<div class="loader">
+<!-- <div class="loader">
     <div class="loader-inner">
         <div class="loader-blocks">
             <span class="block-1"></span>
@@ -52,7 +52,7 @@
             <span class="block-16"></span>
         </div>
     </div>
-</div> 
+</div>  -->
     
     
 <!--Loader End-->
@@ -79,20 +79,7 @@
                         <a class="nav-link scroll" href="#portfolio">Showcase</a>
                         <a class="nav-link scroll" href="#Partners">Clients</a>
                         <a class="nav-link scroll" href="#contact">Contact</a>
-                        
-    
-                           <div class="dropdown">
-                               <a class="nav-link dropdown-toggle" class="dropbtn" role="button"> my Account</a>
-                            <div class="dropdown-content">
-                            <a > Login </a>
-                            <a > Register </a>
-</div>
-</div>
-
-                         
-                       
-                    
-                      
+                        <a class="nav-link scroll" href="Arabic/index.html">Arabic</a>
 
                     <span class="menu-line"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
                 </div>
@@ -137,9 +124,13 @@
                     </li>
                    
                     <li class="nav-item">
+                        
                         <a class="nav-link scroll" href="#contact">Contact</a>
                     </li>
-                   
+                    <li class="nav-item">
+                        
+                        <a class="nav-link scroll" href="Arabic/index.html">Arabic</a>
+                    </li>
                 </ul>
             </nav>
 
@@ -229,7 +220,7 @@
                         <p class="text-dark">The Best Multipurpose One Page Template in Market</p>
                     </div>
                     <!-- LAYER NR. 5 -->
-                    <div class="tp-caption tp-resizeme"
+                    <!-- <div class="tp-caption tp-resizeme"
                          data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
                          data-y="['middle','middle','middle','middle']" data-voffset="['210','210','210','180']"
                          data-width="200" data-height="none"
@@ -241,7 +232,7 @@
                          data-frames='[{"delay":700,"speed":2000,"frame":"0","from":"sX:1;sY:1;opacity:0;fb:40px;","to":"o:1;fb:0;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"200","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;fb:0;"}]'
                          style=" box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;" >
                         <a href="Arabic/index.html" class="btn btn-gradient btn-rounded btn-large">Arabic</a>
-                    </div>
+                    </div> -->
               
                 </li>
                
@@ -314,7 +305,7 @@
                          data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]"
                          data-frames='[{"delay":700,"speed":2000,"frame":"0","from":"sX:1;sY:1;opacity:0;fb:40px;","to":"o:1;fb:0;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"200","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;fb:0;"}]'
                          style=" box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;" >
-                        <a href="Arabic/index.html" class="btn btn-gradient btn-rounded btn-large">Arabic</a>
+                        
                     </div>
                 </li>
 
@@ -386,7 +377,7 @@
                          data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]"
                          data-frames='[{"delay":700,"speed":2000,"frame":"0","from":"sX:1;sY:1;opacity:0;fb:40px;","to":"o:1;fb:0;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"200","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;fb:0;"}]'
                          style=" box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;" >
-                        <a href="Arabic/index.html" class="btn btn-gradient btn-rounded btn-large">Arabic</a>
+                        
                     </div>
                 </li>
 
@@ -409,6 +400,107 @@
 <!--slider end-->
 
 <!--About Start-->
+<br><br>
+<div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+aria-hidden="true">
+<div class="modal-dialog" role="document">
+  <div class="modal-content">
+    <div class="modal-header text-center">
+      <h4 class="modal-title w-100 ">Login</h4>
+      
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body mx-3">
+      <div class="md-form mb-4">
+        <!-- <i class="fas fa-envelope prefix grey-text"></i> -->
+        <label data-error="wrong" data-success="right" for="defaultForm-email"><b>Your email</b></label>
+        <input class="form-control" type="text" name="username" placeholder="E-mail Address" required="">
+      </div>
+
+      <div class="md-form mb-4">
+        <!-- <i class="fas fa-lock prefix grey-text"></i> -->
+        <label data-error="wrong" data-success="right" for="defaultForm-pass"><b>Your password</b></label>
+        <input class="form-control" type="password" name="password" placeholder="Password" required="">
+      </div>
+
+    </div>
+    <div class="modal-footer d-flex justify-content-center form-button">
+        <button id="submit" type="submit" class="btn btn-large btn-rounded btn-gradient">Login</button>
+         <a><b>Forget password?</b>  </a>
+    </div>
+    <div class="text-center">
+
+       <div class="title d-inline-block mb-4">
+                        <!-- <h6 class="mb-3 third-color">Lorem ipsum dolor sit amet</h6> -->
+                        <h5 class="mb-3">Dont have account ? <a href="" class="gradient-text1" data-toggle="modal" data-target="#modalLoginForm1">Register </a>.</h5>
+                     </div>
+       
+        </div>
+  </div>
+
+  
+</div>
+<div class="modal fade" id="modalLoginForm1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+aria-hidden="true">
+<div class="modal-dialog" role="document">
+  <div class="modal-content">
+    <div class="modal-header text-center">
+      <h4 class="modal-title w-100 font-weight-bold">Register</h4>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body mx-3">
+      <div class="md-form mb-4">
+        <!-- <i class="fas fa-envelope prefix grey-text"></i> -->
+        <label data-error="wrong" data-success="right" for="defaultForm-email"><b>Your Name</b></label>
+        <input class="form-control" type="text" name="username" placeholder="Full Name" required="">
+    </div>
+
+      <div class="md-form mb-4">
+        <!-- <i class="fas fa-lock prefix grey-text"></i> -->
+        <label data-error="wrong" data-success="right" for="defaultForm-pass"><b>Your Phone</b></label>
+        <input class="form-control" type="tel" id="phone" name="phone" placeholder="09* *** ** **" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" required>
+    </div>
+
+      <div class="md-form mb-4">
+        <!-- <i class="fas fa-lock prefix grey-text"></i> -->
+        <label data-error="wrong" data-success="right" for="defaultForm-pass"><b>Your Email</b></label>
+        <input class="form-control" type="text" name="email" placeholder="E-mail Address" required="">
+    </div>
+
+    <div class="md-form mb-4">
+        <!-- <i class="fas fa-lock prefix grey-text"></i> -->
+        <label data-error="wrong" data-success="right" for="defaultForm-pass"><b>Your password</b></label>
+        <input class="form-control" type="password" name="password" placeholder="Password" required="">
+    </div>
+
+    <div class="md-form mb-4">
+        <!-- <i class="fas fa-lock prefix grey-text"></i> -->
+        <label data-error="wrong" data-success="right" for="defaultForm-pass"><b>Confirm Your Password</b></label>
+        <input class="form-control" type="password" name="confirmpassword" placeholder="Password" required="">
+    </div>
+
+    </div>
+    <div class="modal-footer d-flex justify-content-center form-button">
+        <button id="submit" type="submit" class="btn btn-large btn-rounded btn-gradient">Sign Up</button>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
+</div>
+</div>
+
+<div class="text-center">
+<a href="" class="btn btn-gradient btn-rounded btn-large" data-toggle="modal" data-target="#modalLoginForm"> My Account</a>
+ 
+</div>
 <section id="about">
     <div class="container">
         <!--About-->
@@ -476,8 +568,14 @@
         </div>
         
          <!-- Service Request -->
-         <div style="display: block; magin: 0 auto; text-align: center;">
-      <button type="submit" class="btn btn-large btn-gradient btn-rounded mt-4" id="submit_btn"><i class="fa fa-spinner fa-spin mr-2 d-none" aria-hidden="true"></i> <span>Request a service</span></button>
+         <div style="display: block; margin: 0 auto; text-align: center;">
+
+            
+      <button type="submit" class="btn btn-large btn-gradient btn-rounded mt-4"><i class="fa fa-spinner fa-spin mr-2 d-none" aria-hidden="true"></i> <span>Request a service</span>
+    
+
+        
+    </button>
     </div>
               
         
